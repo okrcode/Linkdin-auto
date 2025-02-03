@@ -49,7 +49,7 @@ from models import (
 
 app = FastAPI()
 
-stripe.api_key= "sk_test_51Po4zKSGhobegYHfcdkGjinaDwqTONaFyW94nEwHV49yDeK81rQOfC0xGHVT2b2vdypjXfyoQ3RKoSlifAmb9IyN00Sy3N8FG3"
+stripe.api_key= "API_key"
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
